@@ -5,7 +5,7 @@ Farei um programa para visualizar rotas, inspeirado no trabalho de engenharia de
 
 
 RF:
-* Criar Rota -- Rotas com 4 endereços dentro do Array
+* Criar Rota -- Rotas com 4 endereços dentro do Array -- Capacidade máxima do array é 20 endereços.
 * Editar
 * Deletar
 * Visualizar
@@ -31,7 +31,7 @@ Deletar:
 
 
 Listar Endereços:
-    Consegue ver todos os endereços adicinados
+    Consegue ver todos os endereços adicionados
 
 Listar Rotas:
-    Separa todos os endereço em grupo de 4 endereços, essa são as rotas!
+    Separa todos os endereços em grupos de 4 endereços, essas são as rotas!

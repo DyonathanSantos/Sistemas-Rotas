@@ -38,10 +38,10 @@ void createEnderecos()
         printf ("\nDigite o endereço: ");
 
         getchar();
-
+// pega o que é digitado pelo teclado, tudo diferente do scanf(%s) que vai até o 1 espaço. Coloca na posiçaõ correta do array e determina um tamanho
         fgets(enderecos[qtdEnderecos], 100, stdin);
 
-        enderecos[qtdEnderecos][strcspn(enderecos[qtdEnderecos], "\n")] = '\0';
+        enderecos[qtdEnderecos][strcspn(enderecos[qtdEnderecos], "\n")] = '\0'; // troca o enter por /0.
 
         qtdEnderecos++;
 
@@ -154,7 +154,7 @@ void deletarEndereco()
     }
 
     for(i = posicao - 1; i < qtdEnderecos - 1; i++){
-        strcpy(enderecos[i], enderecos[i + 1]);
+        strcpy(enderecos[i], enderecos[i + 1]);  // strcpy copia a str na outra e o loop faz todas ir para esquerda para substituir o espaço vazio
     }
 
     qtdEnderecos--;
@@ -180,7 +180,7 @@ void listarRotas()
            printf(PURPLE BOLD);
            printf("\n=====================================\n");
            printf("             ROTA %d\n", rota);
-           printf("=====================================\n");
+           printf("=====================================\n\n");
            printf(RESET);
 
            rota++;

@@ -20,7 +20,7 @@ RNF:
 
 Sobre o projeto:
 
-Criar Rota:
+Criar Endereço:
     Na rota terá a rua e o núemro, terá que ser armazenada dentro de um array e cada array terá a capacidade de 4 endereços somentes.
 
 Editar:
@@ -30,5 +30,8 @@ Deletar:
     Apaga uma rua e faz com que as outras que estava abaixo suba e libere um espaço no array
 
 
-Listar:
-    Consegue ver a rota, cada rota contém 4 endereços.
+Listar Endereços:
+    Consegue ver todos os endereços adicinados
+
+Listar Rotas:
+    Separa todos os endereço em grupo de 4 endereços, essa são as rotas!
